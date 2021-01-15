@@ -7,11 +7,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mainnet
+    network: testnet
     source:
-      address: '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95'
+      address: '0x0bdcba8ca6bafcec522f20eef0cce9ba603f3e43'
       abi: Factory
-      startBlock: 6627917
+      startBlock: 19418035
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -35,7 +35,7 @@ templates:
   # These data sources templates exist to support the different flags that a token could specify- kind: ethereum/contract
   - kind: ethereum/contract
     name: Exchange
-    network: mainnet
+    network: testnet
     source:
       abi: Exchange
     mapping:
